@@ -1,3 +1,19 @@
 body {
-    
+font-size: 50px;
+color: red;
 }
+p {
+    color: black;
+    font-size: 15px;
+}
+
+.nudd {
+    border: 1px solid darkblue;
+    padding: 5px;
+    width: 100px;
+    color: darkblue;
+    font-size: 15px;
+}
+ul {
+    font-size: 20px;
+    color: #000000;
