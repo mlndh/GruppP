@@ -55,10 +55,10 @@ form.addEventListener('submit', event => {
   event.preventDefault(); 
   const input = document.querySelector('.js-todo-input');
 
-  const text = input.value.trim();  
+  const text = input.value.trim(); 
   if (text !== '') { 
     addTodo(text);
-    input.value = ''; 
+    input.value = '';
     input.focus(); 
   }
 });
@@ -70,7 +70,6 @@ list.addEventListener('click', event => {
     toggleDone(itemKey);
   }
 
-  
   if (event.target.classList.contains('js-delete-todo')) {
     const itemKey = event.target.parentElement.dataset.key;
     deleteTodo(itemKey);
